@@ -2,6 +2,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <asp:Login ID="Login1" runat="server" DestinationPageUrl="~/Default.aspx" CreateUserText="Register" CreateUserIconUrl="~/Register.aspx"></asp:Login>
+    <asp:Login ID="Login1" runat="server" DestinationPageUrl="~/Default.aspx" CreateUserText="Register" CreateUserUrl="~/Todoes/Default.aspx"></asp:Login>
     <asp:LoginStatus ID="LoginStatus1" runat="server" />
 </asp:Content>

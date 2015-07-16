@@ -70,12 +70,13 @@
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                                 <ul class="nav navbar-nav">
                                     <li><a href="/">Home</a></li>
-                                    <li><a href="/Todos/Default.aspx">ToDo List</a></li>
+                                    <li><a href="/Todoes/Default.aspx">ToDo List</a></li>
                                     <li><a href="About.aspx">About Us</a></li>
                                     <li><a href="Contact.aspx">Contact Us</a></li>
                                 </ul>
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li><a href="/Logout.aspx">Logout</a></li>
+                                    <li class="navbar-text">Welcome, <asp:LoginName ID="LoginName1" runat="server" /></li>
+                                    <li><asp:LoginStatus ID="LoginStatus1" runat="server" /></li>
                                 </ul>
                             </div>
                             <!-- /.navbar-collapse -->
